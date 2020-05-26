@@ -79,7 +79,7 @@
 		75DAD76D246E4D4C00F00A84 /* FindMealCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMealCollectionViewCell.swift; sourceTree = "<group>"; };
 		B795C4EE247241E20080C260 /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
 		B795C4F0247283300080C260 /* ShoppingListViewController+Updating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShoppingListViewController+Updating.swift"; sourceTree = "<group>"; };
-		B7D5DC2024643E4A00A2F763 /* Meal Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D5DC2024643E4A00A2F763 /* Masaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Masaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D5DC2324643E4A00A2F763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7D5DC2524643E4A00A2F763 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B7D5DC2724643E4A00A2F763 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 		B7D5DC2124643E4A00A2F763 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7D5DC2024643E4A00A2F763 /* Meal Planner.app */,
+				B7D5DC2024643E4A00A2F763 /* Masaku.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 			);
 			name = "Meal Planner";
 			productName = "Meal Planner";
-			productReference = B7D5DC2024643E4A00A2F763 /* Meal Planner.app */;
+			productReference = B7D5DC2024643E4A00A2F763 /* Masaku.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -455,7 +455,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.rahmatzulfikri.meal-planner";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Masaku;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.rahmatzulfikri.meal-planner";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Masaku;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
