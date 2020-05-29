@@ -80,13 +80,10 @@
 		754CA824246E06510041F32E /* DetailMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMealViewController.swift; sourceTree = "<group>"; };
 		754CA826246E0A240041F32E /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		75DAD76D246E4D4C00F00A84 /* FindMealCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMealCollectionViewCell.swift; sourceTree = "<group>"; };
-		B795C4EE247241E20080C260 /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
-		B7B9DAA2247E16AF00E690E5 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
-		B7D5DC2024643E4A00A2F763 /* Masaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Masaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72AE1D8247E8A4000393B35 /* ShopListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewController.swift; sourceTree = "<group>"; };
 		B72AE1DE247EAA8600393B35 /* LocalShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalShoppingList.swift; sourceTree = "<group>"; };
 		B72AE1E0247EAB8200393B35 /* ShopListViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShopListViewController+Extension.swift"; sourceTree = "<group>"; };
-		B7D5DC2024643E4A00A2F763 /* Meal Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D5DC2024643E4A00A2F763 /* Masaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Masaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D5DC2324643E4A00A2F763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7D5DC2524643E4A00A2F763 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B7D5DC2724643E4A00A2F763 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -458,7 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = ZDJ4YH8CPU;
 				INFOPLIST_FILE = "Meal Planner/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -480,7 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = ZDJ4YH8CPU;
 				INFOPLIST_FILE = "Meal Planner/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
