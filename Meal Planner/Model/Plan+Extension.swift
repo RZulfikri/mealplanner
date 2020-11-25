@@ -70,7 +70,7 @@ extension Plan {
             let result = try viewContext.fetch(request)
             print(result.count)
             if (result.count > 0) {
-                if let deletePlan: Plan = result[0] as! Plan {
+              if let deletePlan: Plan = result[0] as? Plan {
                     let deleteItems: [ShoppingItem] = deletePlan.shopping_item?.allObjects as! [ShoppingItem]
                     for item in deleteItems {
                         ShoppingItem.deleteItem(viewContext: viewContext, item: item)

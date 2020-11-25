@@ -73,6 +73,11 @@ class DetailMealViewController: UIViewController {
         datePicker.minimumDate = minDate
         datePicker.maximumDate = maxDate //maximum pick one month from today
         datePicker.locale = Locale.init(identifier: "id_ID")
+      if #available(iOS 13.4, *) {
+        datePicker.preferredDatePickerStyle = .wheels
+      } else {
+        // Fallback on earlier versions
+      }
         
         // Do any additional setup after loading the view.
         

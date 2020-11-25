@@ -96,7 +96,7 @@ extension ShoppingList {
         do {
             let result = try viewContext.fetch(request)
             if (result.count > 0) {
-                if let deletePlan: Plan = result[0] as! Plan {
+              if let deletePlan: Plan = result[0] as? Plan {
                     viewContext.delete(deletePlan)
                     try viewContext.save()
                     print("delete plan success")
